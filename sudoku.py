@@ -3,14 +3,12 @@ list=[1,2,3,4,5,6,7,8,9,0]
 # print(len(list))
 
 s = int(input("Please write starting index: "))
-while 
-
 
 if s < 0 or s > (len(list)-1):
     print("Out of range!")
     
 else: 
-print(list[s])
+    print(list[s])
 
 e = int(input("Please write ending index: "))
 
